@@ -1,0 +1,43 @@
+.scroll-view-item{
+  width:100%;
+  height: auto;
+}
+.bc_green{
+  background: green;
+  height: 1500rpx;
+}
+.bc_red{
+  background: red;
+  height: 1500rpx;
+}
+.bc_yellow{
+  background: yellow;
+  height: 2500rpx;
+}
+.bc_blue{
+  background: blue;
+  height: 3500rpx;
+}
+.btn0{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: green;
+}
+.btn1{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: red;
+}
+.btn2{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: yellow;
+}
+.btn3{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: blue;
+}
+.btn-area{
+display: flex;
+}

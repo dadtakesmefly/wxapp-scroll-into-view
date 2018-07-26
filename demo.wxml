@@ -1,0 +1,11 @@
+<view class="section">
+  <view class="btn-area">
+    <view catchtap='tap' class='btn{{index}}' data-view='{{item}}' wx:for="{{['green','red','yellow','blue']}}">{{item}}</view>
+  </view>
+  <scroll-view scroll-y style='height:{{height}}px'  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view id="green" class="scroll-view-item bc_green">green</view>
+    <view id="red"  class="scroll-view-item bc_red">red</view>
+    <view id="yellow" class="scroll-view-item bc_yellow">yellow</view>
+    <view id="blue" class="scroll-view-item bc_blue">blue</view>
+  </scroll-view> 
+</view>
